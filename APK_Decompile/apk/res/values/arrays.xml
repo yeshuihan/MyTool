@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="first_pending_duration_entries">
+        <item>@string/three_minutes</item>
+        <item>@string/five_minutes</item>
+        <item>@string/ten_minutes</item>
+        <item>@string/thirty_minutes</item>
+        <item>@string/one_hour</item>
+        <item>@string/four_hours</item>
+    </string-array>
+    <string-array name="first_pending_duration_values">
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>14400000</item>
+    </string-array>
+    <string-array name="second_pending_duration_entries">
+        <item>@string/three_minutes</item>
+        <item>@string/five_minutes</item>
+        <item>@string/ten_minutes</item>
+        <item>@string/thirty_minutes</item>
+        <item>@string/one_hour</item>
+        <item>@string/four_hours</item>
+    </string-array>
+    <string-array name="second_pending_duration_values">
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>14400000</item>
+    </string-array>
+    <string-array name="stress_test_count_entries">
+        <item>10 times</item>
+        <item>20 times</item>
+        <item>50 times</item>
+        <item>100 times</item>
+        <item>200 times</item>
+        <item>500 times</item>
+        <item>1000 times</item>
+        <item>2000 times</item>
+        <item>5000 times</item>
+    </string-array>
+    <string-array name="stress_test_count_values">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array>
+</resources>

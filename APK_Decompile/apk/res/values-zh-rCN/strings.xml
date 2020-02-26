@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MRService</string>
+    <string name="check_box_text">同意并不再提示</string>
+    <string name="not_registered_content">您的电子保卡尚未注册，手机插入SIM卡并持续待机4小时后，系统将自动为您注册。</string>
+    <string name="register_info_ok">确认</string>
+    <string name="register_info_reject">放弃注册</string>
+    <string name="register_info_title">康佳电子保卡信息</string>
+    <string name="register_notice_body">"尊敬的用户:
+
+        感谢您使用康佳手机!
+        为方便我们为您提供满意的售后服务,请完成手机注册;该注册仅会产生正常短信费用,由为您手机提供通讯服务的运营商收取。
+        为了改善您的使用体验，康佳需要对手机功能的使用情况进行统计，其中包括：您的设备识别数据（IMEI、ESN、MEID和SN）、硬件配置数据、用户行为数据和错误日志数据。通过分析统计数据，持续不断地提升系统的操作体验、运行性能、改善功能设计等。在统计时，我们只对系统自身进行统计，绝不涉及您的个人隐私数据，被收集和处理的用户数据无法用来识别、追踪您的个人身份。
+        在数据统计时可能会产生上网流量，流量费用请咨询当地运营商。"</string>
+    <string name="register_notice_footer">"感谢您的支持!
+康佳通信科技有限公司"</string>
+    <string name="register_notice_header">康佳手机用户注册</string>
+    <string name="registered_content_head">您的电子保卡已在</string>
+    <string name="registered_content_tail">完成注册。</string>
+</resources>

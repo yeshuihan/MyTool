@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MRService</string>
+    <string name="check_box_text">同意並不再提示</string>
+    <string name="not_registered_content">Your electronic card has not been registered,.Insert the SIM card and standby 4 hours,the system will automatically register it for you.</string>
+    <string name="register_info_ok">確認</string>
+    <string name="register_info_title">KonkaElectricCardInfo</string>
+    <string name="register_notice_body">"尊敬的用戶:
+
+        感謝您使用康佳手機!
+        為方便我們為您提供滿意的售後服務，請完成手機註冊;該注册僅會產生正常簡訊費用，由為您手機提供通訊服務的運營商收取。
+        為了改善您的使用體驗，康佳需要對手機功能的使用情况進行統計，其中包括：您的設備識別數據（IMEI、ESN、MEID和SN）、硬體設定數據、用戶行為數據和錯誤日誌數據。通過分析統計資料，持續不斷地提升系統的操作體驗、運行效能、改善功能設計等。在統計時，我們只對系統自身進行統計，絕不涉及您的個人隱私數據，被收集和處理的用戶數據無法用來識別、追跡您的個人身份。
+        在數據統計時可能會產生上網流量，流量費用請諮詢當地運營商。"</string>
+    <string name="register_notice_footer">"感謝您的支持!
+康佳通信科技有限公司"</string>
+    <string name="register_notice_header">康佳手機用戶註冊</string>
+    <string name="registered_content_head">Your electronic card has been registered in</string>
+    <string name="registered_content_tail">.</string>
+</resources>

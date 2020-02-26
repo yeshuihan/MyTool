@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="activity_mobile_register_main" />
+    <item type="id" name="checkBox" />
+    <item type="id" name="encryption" />
+    <item type="id" name="foot" />
+    <item type="id" name="okBtn" />
+    <item type="id" name="start_upload" />
+    <item type="id" name="stop_upload" />
+    <item type="id" name="text_checkbox" />
+    <item type="id" name="text_foot" />
+    <item type="id" name="text_header" />
+    <item type="id" name="text_main" />
+    <item type="id" name="upload_process_txt" />
+</resources>

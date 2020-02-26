@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="STR_NO">NO</string>
+    <string name="STR_OK">OK</string>
+    <string name="STR_YES">YES</string>
+    <string name="app_name">MRService</string>
+    <string name="check_box_text">Agree and no longer be prompted</string>
+    <string name="debug_mode">Debug Mode</string>
+    <string name="debug_msg_sent_title">Message Sent Setting</string>
+    <string name="debug_network_send_start">Start Upload Data</string>
+    <string name="debug_network_send_stop">Stop Upload Data</string>
+    <string name="debug_network_upload">upload test</string>
+    <string name="debug_network_upload_title">Network Upload Setting</string>
+    <string name="debug_pending_duration_title">Pending Duration Setting</string>
+    <string name="debug_sent_one_msg">Send one message to server</string>
+    <string name="destination_number">SMS Server Number</string>
+    <string name="first_pending_duration">First Pending Duration</string>
+    <string name="five_minutes">5 minutes</string>
+    <string name="four_hours">4 hours</string>
+    <string name="host_url">Host URL</string>
+    <string name="msg_upload_status_title">SMS upload status</string>
+    <string name="network_upload_status_title">Network upload status</string>
+    <string name="not_registered_content">Your electronic card has not been registered,.Insert the SIM card and standby 4 hours,the system will automatically register it for you.</string>
+    <string name="one_hour">1 hour</string>
+    <string name="popup_allowed">Popup Allowed</string>
+    <string name="popup_have">Have Popup</string>
+    <string name="register_info_ok">Confirm</string>
+    <string name="register_info_reject">Cancel</string>
+    <string name="register_info_title">KonkaElectricCardInfo</string>
+    <string name="register_notice_body">"Dear users:
+
+    Thank you for using Konka mobile phone!
+    In order to facilitate us to provide you with satisfactory after-sales service, please complete mobile phone registration;This registration will only result in a normal SMS fee, charged by the carrier that provides the communication service for your phone.
+    In order to improve your experience, Konka needs to make statistics on the use of mobile phone functions, including your device identification data (IMEI, ESN, MEID and SN), hardware configuration data, user behavior data, and error log data.By analyzing the statistical data, the operating system is continuously improved Inspection, operation performance, improvement function design, etc. When it comes to statistics, we only count the system itself,not refer to your personal privacy data, and the collected and processed user data cannot be used to identify and track your personal identity.
+    In the data statistics may generate the Internet traffic, please consult the local operators for the data traffic expense."</string>
+    <string name="register_notice_footer">"Thanks for your support!
+Konka Communications Technology Co.,Ltd."</string>
+    <string name="register_notice_header">Konka mobile phone users registered</string>
+    <string name="registered_content_head">Your electronic card has been registered in</string>
+    <string name="registered_content_tail">.</string>
+    <string name="reset_confirm_notice">Are you sure to reset ?</string>
+    <string name="reset_confirm_title">Notice!!!</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="reset_msg_flag">Reset Msg Sent Flag</string>
+    <string name="reset_msg_flag_summary">This will clear the msg sent flag, and this phone will send msg again</string>
+    <string name="reset_network_flag">Reset Network Upload Flag</string>
+    <string name="reset_network_flag_summary">This will clear the network upload flag, and this phone will upload information to server again</string>
+    <string name="reset_sold_flag">Reset Sold Flag</string>
+    <string name="reset_sold_flag_summary">This will clear the sold flag, the msg sent flag and the network upload flag.</string>
+    <string name="second_pending_duration">Second Pending Duration</string>
+    <string name="str_set_debug_imei">Default IMEI using during debug mode</string>
+    <string name="str_start_to_upload">Click to Start</string>
+    <string name="str_stop_to_upload">Click to Stop</string>
+    <string name="stress_test_begin_notice">Click to start network upload test</string>
+    <string name="stress_test_end_notice">Click to end network upload test</string>
+    <string name="stress_test_send_times">current send times</string>
+    <string name="ten_minutes">10 minutes</string>
+    <string name="thirty_minutes">30 minutes</string>
+    <string name="three_minutes">3 minutes</string>
+    <string name="upload_status">Upload status</string>
+    <string name="upload_status_summary">Not upload</string>
+    <string name="user_info_addr" />
+    <string name="user_info_name" />
+    <string name="user_info_phone" />
+    <string name="user_info_sex" />
+</resources>

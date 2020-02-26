@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="true" android:title="@string/debug_mode" android:key="toggle_debug_mode" />
+    <SwitchPreference android:persistent="true" android:title="@string/popup_allowed" android:key="network_allow" />
+    <Preference android:title="@string/popup_have" android:key="hasPopup" android:summary="@string/STR_YES" />
+    <PreferenceCategory android:title="@string/debug_pending_duration_title" android:key="pending_setting" android:dependency="toggle_debug_mode">
+        <ListPreference android:entries="@array/first_pending_duration_entries" android:title="@string/first_pending_duration" android:key="first_pending" android:order="2" android:defaultValue="300000" android:dialogTitle="@string/first_pending_duration" android:entryValues="@array/first_pending_duration_values" />
+        <ListPreference android:entries="@array/second_pending_duration_entries" android:title="@string/second_pending_duration" android:key="second_pending" android:order="3" android:defaultValue="300000" android:dialogTitle="@string/second_pending_duration" android:entryValues="@array/second_pending_duration_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/debug_msg_sent_title" android:key="msg_sent_key" android:dependency="toggle_debug_mode">
+        <EditTextPreference android:title="@string/destination_number" android:key="msg_server_number" android:dialogTitle="@string/destination_number" android:inputType="phone" />
+        <Preference android:title="@string/debug_sent_one_msg" android:key="sent_one_msg" android:summary="@string/debug_sent_one_msg" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/debug_network_upload_title" android:key="network_upload_key" android:dependency="toggle_debug_mode">
+        <EditTextPreference android:title="@string/host_url" android:key="host_url" android:defaultValue="http://192.168.1.1/demo/do" android:dialogTitle="@string/host_url" android:inputType="textUri" />
+        <ListPreference android:entries="@array/stress_test_count_entries" android:title="@string/stress_test_send_times" android:key="network_upload_test_count" android:defaultValue="1000" android:dialogTitle="@string/stress_test_send_times" android:entryValues="@array/stress_test_count_values" />
+        <com.android.mobileregister.debug.NetworkUploadPreference android:title="@string/debug_network_upload" android:key="upload_test" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/upload_status" android:key="upload_status_key" android:dependency="toggle_debug_mode">
+        <Preference android:title="@string/msg_upload_status_title" android:key="msg_upload_status" android:summary="@string/upload_status_summary" />
+        <Preference android:title="@string/network_upload_status_title" android:key="network_upload_status" android:summary="@string/upload_status_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reset_data" android:key="reset_data_key" android:dependency="toggle_debug_mode">
+        <Preference android:title="@string/reset_msg_flag" android:key="reset_msg_flag" android:summary="@string/reset_msg_flag_summary" />
+        <Preference android:title="@string/reset_network_flag" android:key="reset_network_flag" android:summary="@string/reset_network_flag_summary" />
+        <Preference android:title="@string/reset_sold_flag" android:key="reset_sold_flag" android:summary="@string/reset_sold_flag_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
